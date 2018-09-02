@@ -6,18 +6,12 @@ var map = L.map('map', {
   closePopupOnClick: false
 }).setView(center, 19);
 
-var layer = L.tileLayer("http://1.base.maps.cit.api.here.com/maptile/2.1/maptile/newest/normal.day/{z}/{x}/{y}/256/png8?app_id=0FTURGZoWPYxBtqn6Jht&app_code=KRzKipEZJLjS2lBw8zWLZw"
-        , {
-        styleId: 997,
-	minZoom: 18,
-	maxZoom: 20
-	})..addTo(map);
 // Set up the OSM layer
-//L.tileLayer(
-//  'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-//    minZoom: 18,
-//    maxZoom: 20
-//  }).addTo(map);
+L.tileLayer(
+  'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    minZoom: 18,
+    maxZoom: 20
+  }).addTo(map);
 
 var myIcon = L.divIcon({
   className: 'my-div-icon'
