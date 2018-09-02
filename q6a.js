@@ -49,7 +49,7 @@ marker3.bindPopup("<b>UP Bonsai Garden</b>", {
 
 var polyline1 = L.polyline([
   [14.64733, 121.06231],
-  [14.65224, 121.06232],
+  [14.65472, 121.06233],
 ], {
   color: 'red',
   weight: 10,
