@@ -1,5 +1,5 @@
 // center of the map
-var center = [14.64814, 121.06366];
+var center = [14.64902, 121.06335];
 
 // Create the map
 var map = L.map('map', {
